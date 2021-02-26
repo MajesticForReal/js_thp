@@ -52,7 +52,7 @@ for(let index in entrepreneurs) {
 console.log('--------------------- ');
 
 // Quel âge aurait chaque entrepreneur aujourd'hui ?
-console.log('--------------------- Age de chaque entrepreneur en 2019');
+console.log('--------------------- Age de chaque entrepreneur en 2021');
 for(let index in entrepreneurs) {
     console.log(entrepreneurs[index].first + " " + entrepreneurs[index].last + " aurait :" + (2021 - entrepreneurs[index].year) + " ans");
 }
